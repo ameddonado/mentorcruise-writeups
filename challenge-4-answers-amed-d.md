@@ -33,12 +33,15 @@
 
 
 ## ) What is a pipeline operator in Linux?
-	the pipeline operator (" | ") lets you use multiple commands together. allowing the user to use the output from the first command in the next command.
+	the pipeline operator (" | ") lets you use multiple commands together. allowing the user to use the output from 
+	the first command in the next command.
 
 
 
 ## f) Explain file permission in Linux. How to change it?
-	file permissions are parameters set within the kernal of the operating system allowing certain users access to certain files. some files will require admin access while other files may allow you to access them but read only, not allowing any modifications.  
+	file permissions are parameters set within the kernal of the operating system allowing certain users access to 
+	certain files. some files will require admin access while other files may allow you to access them but read only, 
+	not allowing any modifications.  
 
 
 ## g) What is the process in a Linux context?
@@ -47,12 +50,15 @@
 
 
 ## h) What are Regular Expressions(regex)? What is the meaning of *,+,? In regular expression?
-	Regular Expressions are strings representing a pattern to be matched in a search operation (similar to what the program renamer would do without a gui) 
+	Regular Expressions are strings representing a pattern to be matched in a search operation 
+	(similar to what the program renamer would do without a gui) 
 
 
 
 ## i) What is a sed command?
-	sed is a streamline text editor that helps a user edit and display text from a file. a hybrid of using cat while being able to edit what will be displayed without saving it. using the -i flag will save those changes to the file. 
+	sed is a streamline text editor that helps a user edit and display text from a file. a hybrid of 
+	using cat while being able to edit what will be displayed without saving it. using the -i flag will 
+	save those changes to the file. 
 
 
 
