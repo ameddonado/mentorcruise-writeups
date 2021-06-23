@@ -63,12 +63,16 @@
 
 
 ## j) What is the difference between Hard Link and Soft Link?
-	a soft link is similar to a shortcut where the shortcut to an app such as photoshop for example would lead the user, when clicked, would open the app from the original / source file location such as C:\Program Files\Adobe\Adobe Photoshop 2021.exe
+	a soft link is similar to a shortcut where the shortcut to an app such as photoshop for example 
+	would lead the user, when clicked, would open the app from the original / source file location such 
+	as C:\Program Files\Adobe\Adobe Photoshop 2021.exe
 
 
 
 ## k) What are Daemons?
-	daemons are service processes / background processes that run in the background and supervises the system or provides functionality to other processes. *Shell scripts stored in /etc/init.d directory are used to start and stop daemons.*
+	daemons are service processes / background processes that run in the background and supervises the 
+	system or provides functionality to other processes. *Shell scripts stored in /etc/init.d directory 
+	are used to start and stop daemons.*
 
 
 
@@ -78,12 +82,19 @@
 
 
 ## m) What are some of the major differences between these?
-	For example EXT stands for Extended File System and it has many variations such as EXT2, EXT3, and EXT4 which all have their own properties and uses. Some file system types maybe backwards compatible with others and some will have features others dont. 
+	For example EXT stands for Extended File System and it has many variations such as EXT2, EXT3, and EXT4 
+	which all have their own properties and uses. Some file system types maybe backwards compatible with others 
+	and some will have features others dont. 
 
 
 
 ## n) What is the difference between init.d and systemd?
-	The init is a daemon process which starts as soon as the computer starts and continues running until it is shutdown. Init is represented by the "PID=1". Systemd is a system management daemon, similar to init, systemd is the parent of all other processes directly or indirectly and is the first process that starts at boot hence typically assigned a "PID=1". the init process starts serially, and often resulted into delayed and long booting time. systemd was not designed for speed but for getting things done neatly which in turns avoid all the unnecessary delay. 
+	The init is a daemon process which starts as soon as the computer starts and continues running until 
+	it is shutdown. Init is represented by the "PID=1". Systemd is a system management daemon, similar to 
+	init, systemd is the parent of all other processes directly or indirectly and is the first process that 
+	starts at boot hence typically assigned a "PID=1". the init process starts serially, and often resulted 
+	into delayed and long booting time. systemd was not designed for speed but for getting things done neatly 
+	which in turns avoid all the unnecessary delay. 
 
 
 
