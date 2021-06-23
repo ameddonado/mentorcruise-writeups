@@ -23,12 +23,12 @@
 		
 
 ## c) What is the command used to get a guide on how to use a command?
--man or -h
+	-man or -h
 
 
 
 ## d) How to get a list of currently running processes and resource utilization in Linux?
-top -i
+	top -i
 
 
 
